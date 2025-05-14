@@ -101,3 +101,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\nExiting...")
         sys.exit(0)
+# To run: python3 ddsm.py /dev/ttyACM0 "01 64 00 00 00 00 00 00 00"

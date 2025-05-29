@@ -248,3 +248,22 @@ if __name__ == "__main__":
     port = sys.argv[1]
     gamepad_device = sys.argv[2]
     main(port, gamepad_device)
+
+
+
+######################################################################################################################################################################
+# To run:
+# lsusb
+# dmesg | grep -i shanwan
+# sudo dmesg | grep -i shanwan
+# ls /dev/input/
+# sudo apt update
+# sudo apt install evtest
+# sudo evtest
+# sudo apt update
+# sudo apt install xboxdrv
+# sudo xboxdrv --detach-kernel-driver --device-by-id 2563:0526
+# ls -l /dev/ttyACM0
+# ls -l /dev/input/event14
+# sudo chmod 666 /dev/input/event14
+# python3 wifirc.py /dev/ttyACM0 /dev/input/event14
